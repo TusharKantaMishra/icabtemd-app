@@ -1,0 +1,219 @@
+.navbar {
+  background: var(--primary-color);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  font-size: 1.1rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+    height: 50px;
+    width: auto;
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+.navbar-item {
+  height: 80px;
+}
+
+.navbar-link {
+  position: relative; /* Added for underline effect */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.navbar-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: var(--secondary-color);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.navbar-link:hover::after,
+.navbar-link.active::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.navbar-link:hover,
+.navbar-link.active {
+  color: var(--secondary-color);
+}
+
+.navbar-button:hover {
+  background-color: var(--secondary-color);
+  color: var(--heading-color);
+}
+
+/* Dropdown Menu Styles */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--primary-color);
+  min-width: 240px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1000;
+  border-radius: 0 0 5px 5px;
+  padding: 0.5rem 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight: 400;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.dropdown-content a:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.btn-primary {
+    padding: 8px 20px;
+    border-radius: 4px;
+    background-color: var(--secondary-color);
+    color: var(--heading-color);
+    border: none;
+    transition: all 0.3s ease-out;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: var(--highlight-color);
+    color: var(--heading-color);
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navbar-toggle .bar {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 960px) {
+    .navbar {
+        position: relative; /* Remove sticky positioning on mobile to fix stacking context */
+    }
+
+    .navbar-toggle {
+        display: flex;
+        z-index: 1001; /* Ensure toggle is above the menu */
+    }
+
+    .navbar-list {
+        flex-direction: column;
+        background: var(--primary-color);
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        padding-top: 80px; /* Offset content to be below the navbar */
+        transition: left 0.5s ease;
+        z-index: 1000; /* Sit below toggle but above everything else */
+        overflow-y: auto; /* Allow scrolling for long menus */
+        box-sizing: border-box;
+    }
+
+    .navbar-list.active {
+        left: 0;
+    }
+
+    .navbar-item {
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar-link {
+        text-align: center;
+        padding: 1.5rem;
+        width: 100%;
+        display: table;
+    }
+
+    .navbar-link::after {
+        display: none; /* Remove yellow line on mobile */
+    }
+
+    .dropdown-content {
+        background-color: #003366;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+    }
+
+    .dropdown-content.show {
+        max-height: 500px; /* Animate open to a large height */
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: none; /* Disable hover on mobile */
+    }
+}

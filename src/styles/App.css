@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+:root {
+  --primary-color: #00423e;
+  --secondary-color: #ffb901;
+  --hero-bg-color: #00423e;
+  --text-color: #424242; /* Dark Gray */
+  --heading-color: #212121; /* Charcoal */
+  --background-color: #FAFAFA; /* Light Gray */
+  --surface-color: #FFFFFF; /* White */
+  --border-color: #EEEEEE; /* Warm Gray */
+  --highlight-color: #ffc93c; /* Lighter Yellow for hover */
+  --font-family-primary: 'Poppins', sans-serif;
+  --font-family-secondary: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-secondary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-primary);
+  color: var(--heading-color);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
