@@ -30,12 +30,24 @@ const AboutPage = () => {
 
       <div id="conference" className="about-section" data-aos="fade-up">
         <h2>About The Conference</h2>
-        <p>
-          The International Conference on Advanced Biomaterials for Tissue Engineering and Medical Devices (ICABTEMD 2025) aims to address critical health issues arising from tissue and organ failure due to injury or damage. These challenges significantly impact health and quality of life, making tissue engineering a promising technique for providing integrated solutions. This field, along with regenerative medicine, has garnered substantial interest from both academic and corporate sectors due to its potential to revolutionize healthcare by enabling effective treatments for tissue and organ damage.
-        </p>
-        <p>
-          Biomaterials play a pivotal role in tissue repair by offering structural support and promoting regeneration. Advanced biomaterials mimic the natural extracellular matrix, supporting cell adhesion and proliferation, which are vital for successful tissue regeneration. These materials also enhance the functionality of medical devices by imparting essential qualities such as durability and strength, as seen in applications like artificial hip joints, where metal alloys and ceramics are used. Biomaterials thus contribute significantly to personalized therapeutic approaches in regenerative medicine. Building on the success of previous conferences under the Center of Excellence in Tissue Engineering (CoE), NIT Rourkela will host ICABTEMD 2025. This conference will serve as a platform for delegates, students, faculty, engineers, doctors, entrepreneurs, and industry professionals from multidisciplinary backgrounds to share the latest advancements in the field. ICABTEMD 2025 aims to contribute meaningfully to the existing knowledge domain and inspire the next generation of bioengineers to develop innovative and translatable ideas that meet national and international needs in biomaterials for tissue engineering and medical device manufacturing.
-        </p>
+        <p> Tissue and organ failure due to injury or other type of damage, are the most critical health issues,therefore the loss or malfunction of these
+ tissues has profound impacts on health and quality of life. Tissue engineering is considered as a promising future technique that can offer
+ integrated solutions for tissue and organ failure and hence there is substantial interest in tissue engineering and regenerative medicine from
+ both academic and corporate sectors due to their potential to revolutionize healthcare by providing more effective treatments for tissue and
+ organ damage. Biomaterials play an essential role in tissue repair by providing structural support and promoting tissue regeneration.
+ Advanced biomaterials can facilitate the regeneration of complex tissues by mimicking the natural extracellular matrix, thereby supporting
+ cell adhesion and proliferation upon which the sucess of the tissue regeneration depends. Advanced biomaterials impart essential qualities
+ to medical devices, allowing them to effectively treat diseased or injured tissue. For example, in load-bearing applications like artificial hip
+ joints, metal alloys and ceramics are typically used due to their strength in supporting surrounding tissue and their durability in resisting
+ wear from repetitive motion. By addressing various facets of tissue repair, biomaterials are paving the way for more effective and
+ personalized therapeutic approaches in regenerative medicine. After the success of International and National conferences under the
+ Center of Excellence in Tissue Engineering (CoE), NIT Rourkela has planned to organize International Conference on Advanced Biomaterials
+ for Tissueengineering and Medical device. The conference will provide an excellent platform for the delegates, students, faculties, engineers,
+ doctors, entrepreneurs, industry  with multidisciplinary backgrounds to come together and share latest advancements in this field. It is hoped
+ that the International conference on advanced biomaterials for tissue engineering and Medical Device (ICABTEMD 2025) will make a
+ meaningful contribution towards the existing knowledge domain and motivate new generation of bioengineers to pave an extra mileage
+ and come up with novel, translatable ideas to meet the needs of the national and international community in the field of Biomaterial for
+ tissue engineering and manufacturing medical device.</p>
       </div>
     </div>
   );
