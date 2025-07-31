@@ -37,39 +37,39 @@ const nationalCommittee = [
 const organizingCommittee = [
   { name: 'Prof. K. Umamaheshwar Rao', role: 'Patron, Director, NIT, Rourkela' },
   { name: 'Prof. Krishna Pramanik', role: 'NIT Rourkela (Conference Chair)' },
-  { name: 'Prof. Sujit Kumar Bhutia', role: 'NIT Rourkela' },
-  { name: 'Prof. Amit Biswas', role: 'NIT Rourkela' },
-  { name: 'Prof. A Thirugnanam', role: 'NIT Rourkela' },
-  { name: 'Prof. Subrata Kumar Panda', role: 'NIT Rourkela' },
-  { name: 'Prof. Sudip Dasgupta', role: 'NIT Rourkela' },
-  { name: 'Prof. Kunal Pal', role: 'NIT Rourkela' },
-  { name: 'Prof. Devendra Verma', role: 'NIT Rourkela' },
-  { name: 'Prof. Nandini Sarkar', role: 'NIT Rourkela' },
-  { name: 'Prof. Angana Sarkar', role: 'NIT Rourkela' },
-  { name: 'Prof. Kasturi Dutta', role: 'NIT Rourkela' },
-  { name: 'Prof. Nivedita Patra', role: 'NIT Rourkela' },
-  { name: 'Prof. Balasubramanian P', role: 'NIT Rourkela' },
-  { name: 'Prof. Anamika Singh', role: 'NIT Rourkela' },
-  { name: 'Prof. Amrita Singh', role: 'NIT Rourkela' },
-  { name: 'Prof. Lohit Kumar Srinivas Gujjala', role: 'NIT Rourkela' },
-  { name: 'Prof. Sivaraman J', role: 'NIT Rourkela' },
-  { name: 'Prof. Subhankar Paul', role: 'NIT Rourkela' },
-  { name: 'Prof. B. P. Nayak', role: 'NIT Rourkela' },
-  { name: 'Prof. Anju R. Babu', role: 'NIT Rourkela' },
-  { name: 'Prof. Earu Banoth', role: 'NIT Rourkela' },
-  { name: 'Prof. Bala Chakravarthy Neelapu', role: 'NIT Rourkela' },
-  { name: 'Prof. Mirza Khalid Baig', role: 'NIT Rourkela' },
-  { name: 'Prof. Prasoon Kumar', role: 'NIT Rourkela' },
-  { name: 'Prof. Ravi Kant Avvari', role: 'NIT Rourkela' },
-  { name: 'Prof. Bikash Chandra Maharaj', role: 'NIT Rourkela' },
-  { name: 'Prof. Gaurav Kumar', role: 'NIT Rourkela' },
-  { name: 'Prof. Ashirbad Jana', role: 'NIT Rourkela' },
-  { name: 'Prof. Srinivas Behera', role: 'NIT Rourkela' },
-  { name: 'Prof. Anupam Mishra', role: 'NIT Rourkela' },
-  { name: 'Prof. Preekshya Nath', role: 'NIT Rourkela' },
-  { name: 'Prof. Nataraj Yedla', role: 'NIT Rourkela' },
-  { name: 'Prof. Santosh Kumar Sahoo', role: 'NIT Rourkela' },
-  { name: 'Prof. Anup Nandy', role: 'NIT Rourkela' },
+  { name: 'Prof. A Thirugnanam', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Amit Biswas', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Sujit Kumar Bhutia', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Sudip Dasgupta', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Subrata Kumar Panda', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Subhankar Paul', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Kunal Pal', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Devendra Verma', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Nandini Sarkar', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Angana Sarkar', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Kasturi Dutta', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Nivedita Patra', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Balasubramanian P', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. B. P. Nayak', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Anju R. Babu', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Earu Banoth', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Sivaraman J', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Bala Chakravarthy Neelapu', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Prasoon Kumar', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Ravi Kant Avvari', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Mirza Khalid Baig', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Amrita Singh', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Anamika Singh', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Lohit Kumar Srinivas Gujjala', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Bikash Chandra Maharaj', role: 'NIT Rourkela (BM)' },
+  { name: 'Prof. Gaurav Kumar', role: 'NIT Rourkela (ME)' },
+  { name: 'Prof. Ashirbad Jana', role: 'NIT Rourkela (ME)' },
+  { name: 'Prof. Srinivas Behera', role: 'NIT Rourkela (ME)' },
+  { name: 'Prof. Anupam Mishra', role: 'NIT Rourkela (CE)' },
+  { name: 'Prof. Preekshya Nath', role: 'NIT Rourkela (MM)' },
+  { name: 'Prof. Nataraj Yedla', role: 'NIT Rourkela (MM)' },
+  { name: 'Prof. Santosh Kumar Sahoo', role: 'NIT Rourkela (MM)' },
+  { name: 'Prof. Anup Nandy', role: 'NIT Rourkela (CS)' },
 ];
 
 const CommitteesPage = () => {
@@ -152,12 +152,12 @@ const CommitteesPage = () => {
         <section id="organizing-committee" className="committee-section" data-aos="fade-up">
           <h2>Local Organizing Committee</h2>
           <table className="committee-table local-organizing">
-            <thead>
+            {/* <thead>
               <tr>
                 <th>Name</th>
                 <th>Role/Affiliation</th>
               </tr>
-            </thead>
+            </thead> */}
             <tbody>
               {organizingCommittee.map((member, index) => (
                 <tr key={index}>

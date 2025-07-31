@@ -15,12 +15,15 @@ const ContactPage = () => {
             Prof. Krishna Pramanik
           </p>
           <p>
-            <strong>Contact Number:</strong><br />
-            +91-661-2462283
+            <strong>Email:</strong><br />
+            <a href="mailto:icabtemd2025@gmail.com">icabtemd2025@gmail.com</a>
           </p>
           <p>
-            <strong>Email:</strong><br />
-            <a href="mailto:icabtemd2025.info@example.com">icabtemd2025.info@example.com</a>
+            <strong>Student Coordinators:</strong><br />
+            Sayantan Ghosh &nbsp; <a href="tel:+919748893878">+91-9748893878</a><br />
+            Supradeep Sahoo &nbsp; <a href="tel:+918637255179">+91-8637255179</a><br />
+            Abhishek Gupta &nbsp; <a href="tel:+919560330875">+91-9560330875</a><br />
+            Samapti Padhihary &nbsp; <a href="tel:+918249729081">+91-8249729081</a>
           </p>
           <p>
             <strong>Address:</strong><br />
