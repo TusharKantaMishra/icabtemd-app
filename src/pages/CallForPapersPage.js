@@ -12,23 +12,38 @@ const CallForPapersPage = () => {
       </section>
 
       <section id="guidelines" className="papers-section" data-aos="fade-up">
-        <h2>Guidelines for Submission</h2>
-        <p>The abstract of the paper must be about 250 words in MS WORD format. The title should be in Capital and Bold followed by the names of the author(s), their address(es) and Corresponding Author email id. Name of the presenting author must be underlined. Different affiliation of authors are indicated by numbered superscripts. The content of the abstract shall include background, objectives, methods, results & conclusion. When using word processing facilities, use only Times New Roman 12 font in ENGLISH. The spacing should be maintained at 1.5 points. The guidelines for full paper will be available on the website. The abstract & full paper should be submitted by e-mail.</p>
+        <h2>GUIDELINES FOR SUBMISSION</h2>
+        <p>
+          The abstract of the paper must be within 250 words in MS WORD format (
+          <a href="https://docs.google.com/document/d/1oVhyfxahE4tSUdLDiojS7iXfCyd-i-Dd/edit?usp=drive_link&ouid=112521745994103703006&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="highlight-link">Download Word Template</a>
+          ). The guidelines for full paper will be available on the website. The abstract &amp; full paper should be submitted by e-mail to <span className="highlight-mail">icabtemd2025@gmail.com</span>.
+        </p>
       </section>
 
       <section id="important-dates" className="papers-section" data-aos="fade-up">
         <h2>Important Dates</h2>
-        <ul className="dates-list">
-          <li>
-            <strong>Abstract Submission Deadline:</strong> August 22, 2025
-          </li>
-          <li>
-            <strong>Acceptance of Abstract:</strong> September 8, 2025
-          </li>
-          <li>
-            <strong>Full Paper Submission Deadline:</strong> November 3, 2025
-          </li>
-        </ul>
+        <div className="dates-table-container">
+          <table className="dates-table">
+            <tbody>
+              <tr className="dates-highlight-row">
+                <td><strong>Abstract Submission Deadline</strong></td>
+                <td><strong>September 15, 2025</strong></td>
+              </tr>
+              <tr>
+                <td>Acceptance of Abstract</td>
+                <td>September 22, 2025</td>
+              </tr>
+              <tr>
+                <td>Payment of registration fee</td>
+                <td>November 10, 2025</td>
+              </tr>
+              <tr>
+                <td>Full Paper Submission Deadline</td>
+                <td>November 3, 2025</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </section>
     </div>
   );

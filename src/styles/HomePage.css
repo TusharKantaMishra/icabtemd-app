@@ -1,3 +1,46 @@
+/* Supported By Section */
+.supported-by-section {
+  background: linear-gradient(90deg, #10413a 60%, #17665c 100%);
+  color: #fff;
+  text-align: center;
+  padding: 1.1rem 0.5rem 1.1rem 0.5rem;
+  margin: -1rem auto 1.5rem auto;
+  border-radius: 0 0 12px 12px;
+  max-width: 900px;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.supported-by-title {
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.13);
+  text-transform: uppercase;
+}
+.supported-by-entity {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffe066;
+  letter-spacing: 0.01em;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.13);
+}
+@media (max-width: 768px) {
+  .supported-by-title {
+    font-size: 1rem;
+  }
+  .supported-by-entity {
+    font-size: 1.1rem;
+  }
+  .supported-by-section {
+    padding: 0.7rem 0.2rem 0.7rem 0.2rem;
+    border-radius: 0 0 8px 8px;
+    max-width: 98vw;
+  }
+}
 .home-page {
   padding: 0;
 }

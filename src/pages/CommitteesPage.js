@@ -16,13 +16,22 @@ const internationalCommittee = [
 ];
 
 const nationalCommittee = [
-  { name: 'Prof. S Kanagaraj', university: 'Indian Institute of Technology, Guwahati', country: 'India' },
-  { name: 'Prof. Utpal Bora', university: 'Indian Institute of Technology, Guwahati', country: 'India' },
+  { name: 'Prof. Utpal Bora', university: 'Indian Institute of Technology, Guwahati', country: 'Assam, India' },
+  { name: 'Prof. S Kanagaraj', university: 'Indian Institute of Technology, Guwahati', country: 'Assam, India' },
   { name: 'Prof. Sourabh Ghosh', university: 'Indian Institute of Technology, Delhi', country: 'India' },
-  { name: 'Prof. Partha Roy', university: 'Indian Institute of Technology, Roorkee', country: 'India' },
-  { name: 'Dr. TS Sampath Kumar', university: 'Indian Institute of Technology Madras', country: 'India' },
-  { name: 'Dr. Baiju G Nair', university: 'National Institute of Technology Calicut', country: 'India' },
-  { name: 'Prof. Rama Raju Baadhe', university: 'National Institute of Technology, Warangal', country: 'India' },
+  { name: 'Prof. Partha Roy', university: 'Indian Institute of Technology, Roorkee', country: 'Uttarkhand, India' },
+  { name: 'Prof. Mahitosh Mondal', university: 'Indian Institute of Technology, Kharagpur', country: 'West Bengal, India' },
+  { name: 'Dr. Baiju G Nair', university: 'National Institute of Technology Calicut', country: 'Kerala, India' },
+  { name: 'Prof. Phalguni Pati', university: 'Indian Institute of Technology, Hyderabad', country: 'Telangana, India' },
+  { name: 'Prof. Rama Raju Baadhe', university: 'National Institute of Technology, Warangal', country: 'Telangana, India' },
+  { name: 'Prof. Ashok kumar', university: 'Indian Institute of Technology, Kanpur', country: 'Uttar Pradesh, India' },
+  { name: 'Prof. Dhirendra S Katti', university: 'Indian Institute of Technology, Goa', country: 'Goa, India' },
+  { name: 'Prof. Santanu Dhara', university: 'Indian Institute of Technology, Kharagpur', country: 'West Bengal, India' },
+  { name: 'Dr. Amulya Panda', university: 'NII New Delhi', country: 'India' },
+  { name: 'Dr. TS Sampath Kumar', university: 'Indian Institute of Technology, Madras', country: 'Tamil Nadu, India' },
+  { name: 'Dr. Deepak Mishra', university: 'Tata Medical Centre, Kolkata', country: 'West Bengal, India' },
+  { name: 'Dr. D. R. Mishra', university: 'IGH, Rourkela', country: 'Odisha, India' },
+  { name: 'Dr. R. K. Patra', university: 'CWS, Rourkela', country: 'Odisha, India' },
 ];
 
 const organizingCommittee = [
@@ -67,6 +76,34 @@ const CommitteesPage = () => {
   return (
     <div className="committees-page">
       <PageHeader title="Committees" />
+      <div className="committee-leads-section">
+        <div className="conference-chair-block">
+          <div className="chair-title">CONFERENCE CHAIR</div>
+          <div className="chair-name">Prof. Krishna Pramanik</div>
+          <div className="chair-details">
+            Center of Excellence in Tissue Engineering<br />
+            Department of Biotechnology & Medical Engineering<br />
+            National Institute of Technology Rourkela-769008, Odisha, India<br />
+            Phone No.: <span className="chair-phone">9348815661</span>
+          </div>
+        </div>
+        <div className="convener-row">
+          <div className="convener-block">
+            <div className="convener-title">CONVENER</div>
+            <div className="convener-names">
+              Prof. A. Thirugnanam (BM)<br />
+              Prof. Amit Biswas (BM)
+            </div>
+          </div>
+          <div className="convener-block">
+            <div className="convener-title">CO-CONVENER</div>
+            <div className="convener-names">
+              Prof. Sujit Kumar Bhutia (LS)<br />
+              Prof. Sudip Dasgupta (CR)
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="committee-container">
         <section id="international-committee" className="committee-section" data-aos="fade-up">
           <h2>International Advisory Committee</h2>

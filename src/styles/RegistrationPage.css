@@ -1,18 +1,111 @@
+/* QR Code Styling */
+.qr-code-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0 2.5rem 0;
+}
+.qr-code-img {
+  max-width: 220px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.13);
+  background: #fff;
+  padding: 0.5rem;
+}
+
+
+.registration-section h2 {
+  color: #1a232b;
+}
+
+.registration-section p {
+  color: #232323;
+}
+
+.fees-table-container, .registration-section {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.07);
+  padding: 2rem 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.fees-table {
+  background: #fff;
+  color: #232323;
+}
+
+.fees-table th {
+  background: #ffcb3c;
+  color: #1a232b;
+  font-weight: 700;
+}
+.fees-table td {
+  color: #232323;
+}
+
+.registration-form-btn {
+  background: linear-gradient(90deg, #ffe066 0%, #ffcb3c 100%);
+  color: #1a232b;
+  border: none;
+}
+.registration-form-btn:hover, .registration-form-btn:focus {
+  background: linear-gradient(90deg, #ffcb3c 0%, #ffe066 100%);
+  color: #232323;
+}
+/* Registration Form Button Styling */
+.registration-form-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.registration-form-btn {
+  background: linear-gradient(90deg, #ffb43a 0%, #ffcb3c 100%);
+  color: #18312e;
+  font-weight: 700;
+  font-size: 1.13rem;
+  padding: 0.85em 2.2em;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.10);
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s, transform 0.15s;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+}
+.registration-form-btn:hover, .registration-form-btn:focus {
+  background: linear-gradient(90deg, #ffcb3c 0%, #ffb43a 100%);
+  color: #102825;
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 4px 18px 0 rgba(0,0,0,0.13);
+}
 .registration-page {
+  background: #f7fafc !important;
+  color: #1a232b !important;
+  min-height: 100vh;
   padding: 2rem 4rem;
   max-width: 1200px;
   margin: 0 auto;
-  color: #333;
 }
 
 .registration-section {
   margin-bottom: 3rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.07);
+  padding: 2rem 1.5rem;
 }
 
 .registration-section h2 {
   font-size: 2rem;
-  color: var(--primary-color);
-  border-bottom: 2px solid var(--secondary-color);
+  color: #1a232b;
+  border-bottom: 2px solid var(--secondary-color, #ffcb3c);
   padding-bottom: 0.5rem;
   margin-bottom: 1.5rem;
 }
@@ -21,6 +114,7 @@
   font-size: 1.1rem;
   line-height: 1.7;
   margin-bottom: 1rem;
+  color: #232323;
 }
 
 .fees-table-container {
@@ -42,7 +136,7 @@
 }
 
 .fees-table thead {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: white;
   font-weight: bold;
 }

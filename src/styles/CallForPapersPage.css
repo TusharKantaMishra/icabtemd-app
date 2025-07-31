@@ -1,3 +1,64 @@
+/* Highlighted link and mail for guidelines section */
+.highlight-link {
+  color: #fff;
+  background: #00796b;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: underline;
+  transition: background 0.2s, color 0.2s;
+}
+.highlight-link:hover {
+  background: #004d40;
+  color: #ffe082;
+}
+
+.highlight-mail {
+  color: #fff;
+  background: #c62828;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+/* Important Dates Table Styling */
+.dates-table-container {
+  margin: 28px 0 0 0;
+  overflow-x: auto;
+}
+.dates-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.08);
+  font-size: 1.08rem;
+}
+.dates-table tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+.dates-table td {
+  padding: 14px 18px;
+  color: #18312e;
+  background: #fff;
+}
+.dates-highlight-row td {
+  background: #ffb43a;
+  color: #18312e;
+  font-weight: 700;
+  font-size: 1.09rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+.dates-table tr:last-child td {
+  border-bottom: none;
+}
+.dates-table td:first-child {
+  font-weight: 500;
+}
+.dates-table td strong {
+  color: #18312e;
+}
 .call-for-papers-page {
   padding: 2rem 4rem;
   max-width: 1200px;

@@ -1,3 +1,56 @@
+/* Topics Section Styling */
+.topics-list-container {
+  background: #102825;
+  border-radius: 18px;
+  padding: 32px 24px;
+  margin: 32px auto 0 auto;
+  max-width: 900px;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.18);
+}
+
+.topics-section-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topic-section-item {
+  margin-bottom: 28px;
+  padding: 18px 20px 14px 20px;
+  background: #18312e;
+  border-radius: 12px;
+  color: #e6e6e6;
+  font-size: 1.13rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.13);
+  transition: background 0.2s, color 0.2s;
+}
+.topic-section-item strong {
+  color: #ffe066;
+  font-size: 1.18rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  display: block;
+  margin-bottom: 7px;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.18);
+}
+
+.topics-sub-list {
+  list-style: disc inside;
+  margin: 0 0 0 18px;
+  padding: 0;
+}
+.topic-sub-item {
+  color: #b6c2c2;
+  font-size: 1rem;
+  margin-bottom: 3px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+.topic-section-item:hover {
+  background: #20413c;
+  color: #fff;
+}
 
 .topics-list-container {
   max-width: 900px;

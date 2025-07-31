@@ -73,7 +73,11 @@ const Navbar = () => {
               Registration
             </NavLink>
           </li>
-
+          <li className="navbar-item">
+            <NavLink to="/sponsorship" className={({ isActive }) => "navbar-link" + (isActive ? " active" : "") } onClick={closeMobileMenu}>
+              Sponsorship
+            </NavLink>
+          </li>
           <li className="navbar-item">
             <NavLink to="/contact" className={({ isActive }) => "navbar-link" + (isActive ? " active" : "")} onClick={closeMobileMenu} end>
               Contact

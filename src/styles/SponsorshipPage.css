@@ -1,0 +1,82 @@
+/* Sponsorship Page Styling */
+.sponsorship-page {
+  background: #fff;
+  min-height: 100vh;
+  padding: 2rem 4rem;
+  color: #18312e;
+}
+.sponsorship-section, .advertisement-section {
+  margin: 0 auto 2.5rem auto;
+  max-width: 900px;
+  background: #fff;
+  color: #18312e;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.10);
+  padding: 2.5rem 1.5rem 1.5rem 1.5rem;
+}
+.sponsorship-section h2, .advertisement-section h2 {
+  text-align: center;
+  color: #10413a;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+.sponsorship-table-container, .advertisement-table-container {
+  width: 100%;
+  margin: 0 auto;
+}
+.sponsorship-table, .advertisement-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  background: #18312e;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  font-size: 1.08rem;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.08);
+}
+.sponsorship-table th, .advertisement-table th {
+  background: #ffb43a;
+  color: #18312e;
+  font-weight: 700;
+  font-size: 1.09rem;
+  padding: 1rem 1.25rem;
+  text-align: left;
+}
+.sponsorship-table td, .advertisement-table td {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid #2a3a4a;
+  color: #18312e;
+  background: #fcffff;
+}
+.sponsorship-table tr:last-child td, .advertisement-table tr:last-child td {
+  border-bottom: none;
+}
+.sponsorship-note {
+  color: #fff;
+  background: #10413a;
+  border-radius: 0 0 8px 8px;
+  padding: 0.7rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 900px) {
+  .sponsorship-page {
+    padding: 1rem;
+  }
+  .sponsorship-section, .advertisement-section {
+    padding: 1.2rem 0.5rem 1rem 0.5rem;
+  }
+  .sponsorship-section h2, .advertisement-section h2 {
+    font-size: 1.3rem;
+  }
+  .sponsorship-table th, .advertisement-table th,
+  .sponsorship-table td, .advertisement-table td {
+    padding: 0.7rem 0.7rem;
+    font-size: 0.98rem;
+  }
+}

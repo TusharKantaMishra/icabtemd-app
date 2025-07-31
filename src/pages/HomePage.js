@@ -14,6 +14,7 @@ const HomePage = () => {
     return () => clearTimeout(timer);
   }, []);
 
+
   return (
     <div className="home-page">
       <section className={`hero-banner ${isLoaded ? 'loaded' : ''}`}>
@@ -32,6 +33,12 @@ const HomePage = () => {
             <img src={nitrGateImg} alt="NIT Rourkela Gate" />
           </div>
         </div>
+      </section>
+
+      {/* Supported By Section */}
+      <section className="supported-by-section" data-aos="fade-up">
+        <div className="supported-by-title">SUPPORTED BY</div>
+        <div className="supported-by-entity">CoE in Tissue Engineering (MHRD)</div>
       </section>
 
       <section className="home-section" data-aos="fade-up">
