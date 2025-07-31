@@ -27,7 +27,7 @@ const Footer = () => {
           <h4>Contact</h4>
           <p>Prof. Krishna Pramanik</p>
           <p>Contact: +91-661-2462283</p>
-          <p>Email: <a href="mailto:icabtemd2025.info@example.com">icabtemd2025.info@example.com</a></p>
+          <p>Email: <a href="mailto:icabtemd2025@gmail.com">icabtemd2025@gmail.com</a></p>
         </div>
       </div>
       <div className="footer-bottom">

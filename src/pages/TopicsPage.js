@@ -16,7 +16,7 @@ const topicsData = [
     ],
   },
   {
-    title: 'Advanced techniques for manufacturing tissue Scaffold',
+    title: 'Advanced techniques for manufacturing Tissue Scaffold',
     subtopics: [
       'Electrospinning',
       '3D printing',
@@ -31,7 +31,7 @@ const topicsData = [
     ],
   },
   {
-    title: 'Antimicrobial/antioxidant/anti-inflammatory strategy for developing Biomaterials and Engineered Tissue Products',
+    title: 'Antimicrobial/Antioxidant/Aanti-inflammatory strategy for developing Biomaterials and Engineered Tissue Products',
     subtopics: [],
   },
   {
@@ -39,11 +39,11 @@ const topicsData = [
     subtopics: [],
   },
   {
-    title: 'Computational approach for biomaterial design',
+    title: 'Computational approach for Biomaterial Design',
     subtopics: ['AI / ML Application'],
   },
   {
-    title: 'Translational Strategy for innovative R & D and application of Biomaterials/engineered tissue Products/Medical Device',
+    title: 'Translational Strategy for innovative R & D and application of Biomaterials/Engineered Tissue Products/Medical Device',
     subtopics: [],
   },
   {
@@ -51,7 +51,7 @@ const topicsData = [
     subtopics: [],
   },
   {
-    title: 'IPR and start-up',
+    title: 'IPR and Start-up',
     subtopics: [],
   },
   {

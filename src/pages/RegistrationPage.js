@@ -58,8 +58,8 @@ const RegistrationPage = () => {
               </tr>
               <tr>
                 <td>Accompanying person</td>
-                <td>INR 1000</td>
-                <td>INR 1000</td>
+                <td>INR 1500</td>
+                <td>INR 1500</td>
                 <td>USD 150</td>
                 <td>USD 150</td>
               </tr>
@@ -70,7 +70,11 @@ const RegistrationPage = () => {
 
       <section id="accommodation" className="registration-section" data-aos="fade-up">
         <h2>Accommodation</h2>
-        <p>The accommodation of the Delegates and Participants will be arranged in the Institute Guest House based on the availability and on the basis of payment. Details of the accommodation in nearby hotels is available on the website.</p>
+        <p>Accommodation of the Delegates and Participants will be arranged in
+the Institute Guest House on payment basis based on the availability
+and first cum first serve basis. For student delegates, hostel
+accommodation within the campus will be arranged on request and on
+payment basis.</p>
       </section>
 
       <section id="payment-mode" className="registration-section" data-aos="fade-up">

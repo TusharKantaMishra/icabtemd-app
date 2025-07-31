@@ -15,7 +15,7 @@ const ContactPage = () => {
             Prof. Krishna Pramanik
           </p>
           <p>
-            <strong>Email:</strong><br />
+        <a href="mailto:icabtemd2025@gmail.com">icabtemd2025@gmail.com</a>
             <a href="mailto:icabtemd2025@gmail.com">icabtemd2025@gmail.com</a>
           </p>
           <p>
